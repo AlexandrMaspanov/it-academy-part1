@@ -1,0 +1,26 @@
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p {
+  color: blue;
+  font-style: italic;
+}
