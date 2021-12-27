@@ -1,0 +1,63 @@
+a {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+.var1 table {
+  border-collapse: collapse;
+}
+
+.var1 td {
+  border-right: 3px solid red;
+  padding: 5px 20px;
+}
+
+.var1 td:last-of-type {
+  border-right: none;
+}
+
+.var2 div {
+  display: inline-block;
+  border-right: 3px solid red;
+  padding: 5px 20px;
+  margin-left: -3px;
+}
+
+.var2 div:last-of-type {
+  border-right: none;
+}
+
+.var3 div {
+  display: inline-block;
+  background: url("img/red.png") right top repeat-y;
+  padding: 5px 20px;
+}
+
+.var3 div:last-of-type {
+  background: url("img/white.png") right top repeat-y;
+}
+
+.var4 li {
+  display: inline-flex;
+  list-style-type: none;
+  margin: -2px;
+}
+
+.var4 ul {
+  margin: 0;
+  padding: 0;
+}
+
+.var4 li a {
+  padding: 5px 20px;
+}
+
+.var4 div {
+  display: inline-block;
+  width: 3px;
+  height: 28px;
+  background-color: red;
+}
